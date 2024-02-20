@@ -10,7 +10,7 @@ class AirportViewSet(viewsets.ModelViewSet):
     serializer_class = AirportSerializer
 
 class AirlineViewSet(viewsets.ModelViewSet):
-    queryset = Airline.object.all()
+    queryset = Airline.objects.all()
     serializer_class = AirlineSerializer
 
 class RunwayViewSet(viewsets.ModelViewSet):
